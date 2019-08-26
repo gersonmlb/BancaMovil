@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/ic_menu_send"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/login_margin_top" />
+
+        </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edt_login_NumeroCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_height"
+        android:hint="@string/login_edittext_hint_id"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/green_bancamovil_background"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="@dimen/login_margin_lade"
+        android:layout_marginRight="@dimen/login_margin_lade"
+        android:textSize="@dimen/login_text_textsize"
+        android:textStyle="italic"
+        android:layout_marginBottom="@dimen/login_margin_bottom" />
+
+
+    <EditText
+        android:id="@+id/edt_login_Password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_height"
+        android:hint="@string/login_edittext_hint_password"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/green_bancamovil_background"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="@dimen/login_margin_lade"
+        android:layout_marginRight="@dimen/login_margin_lade"
+        android:textSize="@dimen/login_text_textsize"
+        android:textStyle="italic"
+        android:layout_marginBottom="@dimen/login_margin_bottom" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:text="@string/login_button_text"
+        android:id="@+id/btn_Login"
+        android:textColor="@color/green_bancamovil_login_text"
+        android:background="@color/white"
+        android:textSize="@dimen/login_text_textsize"
+        android:layout_marginLeft="@dimen/login_margin_lade"
+        android:layout_marginRight="@dimen/login_margin_lade"
+        android:layout_marginBottom="@dimen/login_margin_bottom" />
+
+    </LinearLayout>
+
+</LinearLayout>

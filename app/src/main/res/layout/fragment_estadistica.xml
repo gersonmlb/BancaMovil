@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/cht_Grafico_01"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/cht_Grafico_021"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/cht_Grafico_022"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/cht_Grafico_023"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <!--<com.github.mikephil.charting.charts.BarLineChartBase-->
+            <com.github.mikephil.charting.charts.BubbleChart
+                android:id="@+id/cht_Grafico_03"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.github.mikephil.charting.charts.CombinedChart
+                android:id="@+id/cht_Grafico_04"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.github.mikephil.charting.charts.CandleStickChart
+                android:id="@+id/cht_Grafico_05"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <!--<com.github.mikephil.charting.charts.Chart-->
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/cht_Grafico_06"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.github.mikephil.charting.charts.RadarChart
+                android:id="@+id/cht_Grafico_07"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
